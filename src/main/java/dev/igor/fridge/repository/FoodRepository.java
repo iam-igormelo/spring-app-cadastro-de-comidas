@@ -1,5 +1,9 @@
 package dev.igor.fridge.repository;
 
-public class FoodRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
 
+import dev.igor.fridge.model.Food;
+
+public interface FoodRepository extends JpaRepository<Food, Long> {
+    
 }
