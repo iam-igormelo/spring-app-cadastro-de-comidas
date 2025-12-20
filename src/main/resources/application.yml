@@ -7,10 +7,3 @@ spring:
   h2:
     console:
       enabled: true
-  jpa:
-    database-plataform: org.hibernate.dialect.H2Dialect
-    hibernate:
-      ddl-auto: validate
-    show-sql: true
-  flyway:
-    enabled: true
